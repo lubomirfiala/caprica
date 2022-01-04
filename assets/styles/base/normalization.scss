@@ -1,0 +1,132 @@
+html {
+    font-size: 15px;
+}
+
+body, p, h1, h2, h3, h4, h5 {
+    font-size: .9rem;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", arial, verdana, sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+
+body {
+    color: #333333;
+    background: #ffffff;
+    background-size: 100% auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    max-width: 90rem;
+    height: 1px;
+    margin:0 auto 3rem;
+    border:none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+picture {
+    display: inline-block;
+    max-width: 100%;
+}
+
+p, .cktext p {
+    font-size: 0.9rem;
+    padding: 0 0 1.2rem;
+    line-height: 250%;
+    max-width: 47rem;
+    margin:auto;
+    &.block {
+        text-align: justify;
+    }
+}
+
+
+.h0 {
+    font-size: 3rem;
+    padding-bottom: 4rem;
+    line-height: 130%;
+    font-weight: 300;
+}
+
+.h1, .cktext h1 {
+    font-size: 2rem;
+    padding: 0 0 1rem;
+    line-height: 130%;
+    font-weight: 300;
+    max-width: 47rem;
+    margin: auto;
+}
+
+.h2, .cktext h2 {
+    font-size: 2rem;
+    max-width: 47rem;
+    margin:auto;
+    padding: 0 0 3rem;
+    line-height: 190%;
+    font-weight: 300;
+}
+
+.h3, .cktext h3 {
+    font-size: 1.5rem;
+    padding: 0 2rem 1.1rem;
+    max-width: 47rem;
+    margin:auto;
+    line-height: 130%;
+    font-weight: 300;
+}
+
+.h4, .cktext h4 {
+    font-size: 1.1rem;
+    line-height: 130%;
+    padding-bottom: 0.6rem;
+    font-weight: 300;
+    max-width: 47rem;
+    margin: auto;
+}
+
+.h5, .cktext h5 {
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    max-width: 47rem;
+    margin: auto;
+}
+
+
+a {
+    color: #333333;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-comment {
+    color: #888888;
+    font-style: italic;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+
+@media (prefers-color-scheme: dark) {
+}
